@@ -40,7 +40,7 @@ export class Ball {
   ) {
     this.size = { x: 20, y: 20 }; // default ball size
     this.position = { x: 50, y: 50 }; // default ball position
-    this.direction = { x: 1, y: 0 }; //Ball speed when game starts
+    this.direction = { x: 1, y: 1 }; //Ball speed when game starts
     this.acceleration = -7; //X speed multipler on successful block
     this.initial = { x: 0, y: 0 }; //speed reset on point score
     this.maximum = { x: 10, y: 5}; //maximum speed
